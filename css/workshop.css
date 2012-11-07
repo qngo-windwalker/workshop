@@ -1,5 +1,5 @@
 
-body{font-family:"Times New Roman", Times, serif; color: #565759; padding: 20px;}
+body{font-family:"Times New Roman", Times, serif; color: #565759; padding: 20px;margin:0 auto;}
 p{margin-bottom: 18px;}
 table{ width: 100%; border: 1px solid #000; border-collapse: collapse; margin-bottom: 18px; }
 td{ border-top: 1px solid black; padding: 12px 12px 0 12px;}
@@ -12,4 +12,23 @@ td{ border-top: 1px solid black; padding: 12px 12px 0 12px;}
 	
 tr.tbl-header p{ font-size:18px; font-weight: bold; color: #841618;}
 tr.tbl-header td{ background: #F7EEDA;}
-.ajax-wrapper {width: 650px;}
+.ajax-wrapper {width: 650px;padding:0px 20px 0px 20px;}
+.ajax-wrapper h2{line-height:4; color: #841618}
+
+#sessionTitle h1 {font-family:"Times New Roman", Times, serif; color: #841618; padding:65px 20px 20px 20px; font-size:18px;text-align:center;}
+
+#header {
+	position:fixed;
+	top:0px;
+	left:0px;
+	background: url(../img/headerbg.png) repeat-x;
+	width:100%;
+	height:60px;
+	}
+
+#workshopTitle h1 {font-family:"Times New Roman", Times, serif; color: #841618; font-size:24px;text-align:center;}
+
+#nav { text-align:center;background:#841618; font-weight:bold; }
+#nav li {display:inline-block;padding:4px; color:#666;border-right:solid thin; border-color:#FFF;}
+#nav li a {color:#fff;text-decoration:none;font-size:14px;text-align:center; padding:0px 5px 0px 5px;}
+#nav li a:hover {color:#fff;text-decoration:underline;}
