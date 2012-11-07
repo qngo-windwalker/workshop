@@ -1,0 +1,15 @@
+
+body{font-family:"Times New Roman", Times, serif; color: #565759; padding: 20px;}
+p{margin-bottom: 18px;}
+table{ width: 100%; border: 1px solid #000; border-collapse: collapse; margin-bottom: 18px; }
+td{ border-top: 1px solid black; padding: 12px 12px 0 12px;}
+
+	.col-1{ width: 23%; text-align:center; vertical-align:middle;}
+	.col-2{ border-left: 1px solid black;}
+
+	.content-title{ font-size:18px; font-weight: bold; color: #841618;}
+	.presenter{ color: #841618; }
+	
+tr.tbl-header p{ font-size:18px; font-weight: bold; color: #841618;}
+tr.tbl-header td{ background: #F7EEDA;}
+.ajax-wrapper {width: 650px;}
